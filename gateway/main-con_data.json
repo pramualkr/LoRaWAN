@@ -1,0 +1,162 @@
+{
+  "body": {
+    "public": {
+      "rx_data_history": {
+        "db_max_entries": 10000
+      },
+      "loftp": {
+        "enable": false
+      },
+      "csvlo": {
+        "rotation_time": "hour",
+        "rotation_count": 100
+      },
+      "rhttp": {
+        "enable": false,
+        "secure": false,
+        "host": "",
+        "port": 80,
+        "path": ""
+      },
+      "reftp": {
+        "enable": false,
+        "user": "",
+        "password": "",
+        "host": "",
+        "port": 21,
+        "path": "/"
+      },
+      "smsma": {
+        "enable": true
+      },
+      "node_red": {
+        "enable": false
+      },
+      "sscan": {
+        "enable": false,
+        "freq_min": 0,
+        "freq_max": 0
+      },
+      "region_specific": {
+        "region": 2
+      },
+      "lora_network": {
+        "nwk_id": 0
+      },
+      "rx_rf": {
+        "radio_0": {
+          "enable": true,
+          "freq": 923100000
+        },
+        "radio_1": {
+          "enable": true,
+          "freq": 921900000
+        },
+        "chan_multisf_0": {
+          "enable": true,
+          "radio": 0,
+          "if": 100000
+        },
+        "chan_multisf_1": {
+          "enable": true,
+          "radio": 0,
+          "if": 300000
+        },
+        "chan_multisf_2": {
+          "enable": true,
+          "radio": 0,
+          "if": -100000
+        },
+        "chan_multisf_3": {
+          "enable": true,
+          "radio": 0,
+          "if": -300000
+        },
+        "chan_multisf_4": {
+          "enable": true,
+          "radio": 1,
+          "if": -300000
+        },
+        "chan_multisf_5": {
+          "enable": true,
+          "radio": 1,
+          "if": -100000
+        },
+        "chan_multisf_6": {
+          "enable": true,
+          "radio": 1,
+          "if": 100000
+        },
+        "chan_multisf_7": {
+          "enable": true,
+          "radio": 1,
+          "if": 300000
+        },
+        "chan_monosf": {
+          "enable": false,
+          "radio": 0,
+          "if": 0,
+          "bandwidth": 250000,
+          "spread_factor": 7
+        },
+        "chan_fsk": {
+          "enable": false,
+          "radio": 0,
+          "if": 0,
+          "bandwidth": 250000,
+          "datarate": 50000
+        }
+      },
+      "tx_rf": {
+        "antenna_gain": 3,
+        "insertion_loss": 0,
+        "tx_power": 7
+      },
+      "packets_forwarding": {
+        "enable": false,
+        "host": ""
+      },
+      "network": {
+        "lan": {
+          "type": "dhcp",
+          "address": "",
+          "netmask": "",
+          "gateway": ""
+        },
+        "wlan": {
+          "network_name": "ES_INTERNET_6",
+          "passphrase": "esaccess",
+          "type": "dhcp",
+          "address": "",
+          "netmask": "",
+          "gateway": ""
+        },
+        "gsm": {
+          "enable": true,
+          "operator": {
+            "mcc": "",
+            "mnc": ""
+          },
+          "pin_code": "",
+          "apn": "",
+          "user": "",
+          "password": ""
+        },
+        "openvpn": {
+          "enable": false
+        }
+      },
+      "time": {
+        "timezone": "Asia/Bangkok",
+        "ntp": {
+          "polling": 10,
+          "address_1": "time.navy.mi.th",
+          "address_2": "time2.navy.mi.th"
+        }
+      },
+      "login": {
+        "password": "spnpwd"
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+connect AP indoor Kerlink
+
+klk-wifc-04032C   (last 6 digit of board ID)
+pw = mac address
+
+mac 7076FF02B09C
+
+connect AP outdoor Kerlink
+mac 7076FF032316
+connect with POE 
+out to gateway
+in to PC
+config DHCP
+
+or 
+connect ethernet   go to http://klk-wiis-070631/
+ip gateway 192.168.120.1
+
+
+http://klk-wiis-070631/
+pw = mac address
+
+
+
+web page
+
+ifemcen without SPN
+User name admin
+Password pwd4admin
+
+ifemcen with SPN
+User name spn
+Password spnpwd
+
+remote 
+user = root
+pw pdmk-04032C   (6 digit from 
+
+pdmk-070631 outdoor
+
+pdmk-0402D4	entech
+
+
+------------------------------------------------
+
+mkdir -p /user/.updates
+cd /user/.updates
+wget https://artifacts.chirpstack.io/vendor/kerlink/ifemtocell/chirpstack-gateway-bridge_3.10.0-r2_klkgw.ipk
+
+https://chirpstack.ni11.com/#/dashboard
+pramual@thingcontrol.io
+npk2000
+
+192.168.1.127:8080
+user admin
+pw npk2000
+
+------------------------------------------------
+
+kerlink
+http://www.wikikerlink.fr/wirnet-ifemtocell-spn/doku.php?id=home
+
+user rithibatlimitedpartnership
+pw BrLX8ItSqU
+
+
+https://wikikerlink.fr/
+
+user greenio
+pw t05uWfG8QT
+
+------------------------------------------------
+
+public Chripstack
+web page
+https://chirpstack.thingcontrol.io/
+user = admin
+pw = admin
+
+remote
+host: ais.tc.ni11.com
+port: 2311
+
+Username : superuser
+Password : MyTempCSL#dm1n
+------------------------------------------------
+
+gatway EUI
+
+0x7276FF004504032C Greenio
+0x7276FF00450402D4 Entech
+0x7076FF0054070631 outdoor
